@@ -33,7 +33,7 @@ Index(['category', 'doi', 'title', 'publication_year', 'url', 'publisher',
 '''
 
 
-'''
+
 # 랜덤 행 보기
 import pandas as pd
 import numpy as np # 랜덤 시드 설정을 위해 필요
@@ -51,18 +51,25 @@ df_random_sample = df_full.sample(n=100, random_state=42)
 print(df_random_sample.head())
 print(len(df_random_sample))
 print(df_random_sample.columns)
-'''
 
 
+# 여기부터 진짜 개중요함... 걍 이것저것 쓰려면 여기 만지면서 바꿔보면 충분함
 import pandas as pd
 
 df = pd.read_csv("/Users/hantaehee/Downloads/Meta-Data/Ver.2/ieee_dataport_all_categories.csv")
-sample20 = df.sample(20, random_state=42)
+# sample20 = df.sample(20, random_state=42)
 
-pd.set_option('display.max_colwidth', None)
-print(sample20.shape)
-print(sample20['publisher'].head(20))
-# print(df['category'].isna().sum())
-# print(df['category'].isna().mean() * 100)
+# pd.set_option('display.max_colwidth', None)
+# print(sample20.shape)
+# print(sample20['publisher'].head(20))
+
+print(df['description'].isna().sum())
+print(df['description'].isna().mean() * 100)
 # print(df['category'].eq('Other').sum())
 # print(df['category'].eq('Other').mean() * 100)
+
+category_stats = pd.DataFrame({
+    'count': df['license'].value_counts(),
+    'ratio(%)': df['license'].value_counts(normalize=True) * 100
+})
+print(category_stats)
