@@ -1,0 +1,11 @@
+Full title,IEA2024-Successofstart-ups
+Authors,IEA
+Citation,https://iea.blob.core.windows.net/assets/703504a7-9f63-4edf-a82a-6dc1b2b1b935/IEA2024-Successofstart-ups.csv
+Abstract,This set of indicators will focus on measuring how successful start-ups have been in different countries and sectors.
+Last updated,24-Sep-25
+year,Founding year of the start-ups
+country_ISO,Country of the start-up in ISO3 format
+Indicator categories,"Acquisition, IPO, success"
+Technology or Sector,"High-level sector used to group start-ups (including non-energy, energy-and-digital, energy-and-non-digital, energy-and-green, energy-and-not-green) or energy technology field (wind, solar, etcÅc)"
+Unit,%
+Value,"percentage of success, IPO or acquisition "

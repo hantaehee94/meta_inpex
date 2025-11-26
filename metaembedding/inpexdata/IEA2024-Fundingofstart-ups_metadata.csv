@@ -1,0 +1,13 @@
+Full title,IEA2024-Fundingofstart-ups
+Authors,IEA
+Citation,https://iea.blob.core.windows.net/assets/703504a7-9f63-4edf-a82a-6dc1b2b1b935/IEA2024-Fundingofstart-ups.csv
+Abstract,This set of indicators focuses on the level of investment allocated to start-ups in the energy sector and beyond. It will allow the evaluation of the share of investment in energy start-ups in total start-up investment as well as the level of start-up investment observed in the different Energy fields. The indicators focus on entrepreneurial firms ? also called de novo ? thereby excluding spin-offs from incumbent firms.
+Last updated,24-Sep-25
+year,Founding year of the start-ups.
+country_ISO,Country of the start-up in ISO3 format
+Indicator categories,"Funding stage (early stage, expansion stage, bridge stage)"
+Technology or Sector,"High-level sector used to group start-ups (including non-energy, energy-and-digital, energy-and-non-digital, energy-and-green, 
+energy-and-not-green) or energy technology field (wind, solar, etcÅc)"
+Unit,USD (2020) or %
+Number of observations,Number of deals observed
+Value,Amount of money (USD 2020) spent or % share

@@ -1,0 +1,11 @@
+Full title,IEA2024-Numberofstart-ups
+Authors,IEA
+Citation,https://iea.blob.core.windows.net/assets/703504a7-9f63-4edf-a82a-6dc1b2b1b935/IEA2024-Numberofstart-ups.csv
+Abstract,The first set of indicators is related to start-up creations. Those indicators will give a measure of the amount of entrepreneurship within the relevant sector (as identified by the tags).
+Last updated,24-Sep-25
+year,Founding year of the start-ups
+country_ISO,Country of the start-up in ISO3 format
+Indicator categories,Name of the indicator used
+Technology or Sector,"High-level sector used to group start-ups (including non-energy, energy-and-digital, energy-and-non-digital, energy-and-green, 
+energy-and-not-green) or energy technology field (wind, solar, etcÅc)"
+Value,"Number of companies in the sector, country and year"
